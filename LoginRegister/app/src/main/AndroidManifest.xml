@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.niklocal.loginregister">
+    package="com.example.niklocal.loginsharedpref">
 
     <application
         android:allowBackup="true"
@@ -17,8 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".RegisterData" />
-        <activity android:name=".DataBAseHandler" />
+        <activity android:name=".signup" />
         <activity android:name=".view"></activity>
     </application>
 

@@ -1,4 +1,4 @@
-package com.example.niklocal.loginregister;
+package com.example.niklocal.loginsharedpref;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.niklocal.loginregister", appContext.getPackageName());
+        assertEquals("com.example.niklocal.loginsharedpref", appContext.getPackageName());
     }
 }

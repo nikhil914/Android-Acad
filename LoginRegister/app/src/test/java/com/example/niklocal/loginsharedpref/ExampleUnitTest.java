@@ -1,4 +1,4 @@
-package com.example.niklocal.loginregister;
+package com.example.niklocal.loginsharedpref;
 
 import org.junit.Test;
 
