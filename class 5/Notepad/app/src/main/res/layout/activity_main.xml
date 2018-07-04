@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff77cf"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="217dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:background="#4286f4"
+        android:text="Show Notes"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="217dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="#5eb279"
+        android:text="Create Notes"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="#45274c"
+        android:text="           NOTEPAD"
+        android:textColor="#ffffff"
+        android:textSize="36dp" />
+</RelativeLayout>
