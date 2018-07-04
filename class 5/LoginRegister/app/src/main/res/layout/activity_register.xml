@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataBAseHandler">
+
+
+    <EditText
+        android:id="@+id/editmobileno"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="8"
+        android:hint="Mobile no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.453">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editfirstname"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="8"
+        android:hint="First Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.015"
+        tools:layout_editor_absoluteX="0dp">
+
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/editlastname"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="8"
+        android:hint="Last Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editfirstname"
+        app:layout_constraintVertical_bias="0.015"
+        tools:layout_editor_absoluteX="4dp" />
+
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="8"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editlastname"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="374dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="8"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editemail"
+        app:layout_constraintVertical_bias="0.355"
+        tools:layout_editor_absoluteX="5dp" />
+
+
+    <EditText
+        android:id="@+id/editconformpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="8"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editpassword"
+        app:layout_constraintVertical_bias="0.156"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editconformpassword" />
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toEndOf="@+id/btnsave"
+        app:layout_constraintTop_toBottomOf="@+id/editconformpassword" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="SignUp"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017" />
+
+</android.support.constraint.ConstraintLayout>
